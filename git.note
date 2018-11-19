@@ -3,8 +3,10 @@ git init
 git clone
 
 git add [*|file]
+	添加到了暂存区
 
 git commit -m "info"
+	提交
 
 git status
 
@@ -14,3 +16,11 @@ git log
 
 git reset
 git reset --hard HEAD
+git reset HEAD <file>
+	暂存区的修改撤销掉（unstage），重新放回工作区
+
+git reflog
+
+git check -- [file]
+
+git rm [file]

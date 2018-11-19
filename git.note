@@ -13,3 +13,4 @@ git diff [file]
 git log
 
 git reset
+git reset --hard HEAD
